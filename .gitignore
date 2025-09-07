@@ -1,0 +1,26 @@
+# .gitignore for Nim Game Python project
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other common Python ignores
+*.log
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
