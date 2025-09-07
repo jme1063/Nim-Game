@@ -42,8 +42,8 @@ class NimGame:
 
         self.total_sticks -= count
 
-        if self.current_player == 1:
-            self.current_player = 2 
+        if self.current_player == 2:
+            self.current_player = 1
         else:
             self.current_player = 2
 
@@ -126,4 +126,4 @@ if __name__ == "__main__":
         print(f"Player {game.get_loser()} took the last stick and loses! Player {game.current_player} wins!")
     
     else:
-        print(f"Player {game.get_winner()} wins by taking the last stick!")
+        print(f"Player {game.get_loser()} wins by taking the last stick!")
