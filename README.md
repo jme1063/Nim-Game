@@ -1,4 +1,4 @@
-# Nim Game (Lab Assignment)
+# Nim Game (Lab Assignment for COMP 730)
 This is a python-based game of Nim, a stick pick-up game. Originally used 21 sticks, this game randomizes how many sticks the players start with. Additionally, players have the option of playing with the normal or poison (misère) ruleset.
 
 
@@ -30,3 +30,4 @@ This is a python-based game of Nim, a stick pick-up game. Originally used 21 sti
 
 ## License
 This project is for educational purposes.
+
